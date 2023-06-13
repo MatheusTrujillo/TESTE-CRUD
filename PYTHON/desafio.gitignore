@@ -1,0 +1,20 @@
+ Desafio:
+Crie um programa em Python que implemente um CRUD para gerenciar uma lista de tarefas. Cada tarefa deve conter as seguintes informações: título, descrição e status (concluída ou pendente).
+
+Requisitos:
+
+O programa deve permitir a criação de uma nova tarefa, solicitando ao usuário que digite o título, a descrição e o status da tarefa.
+
+O programa deve permitir a leitura de todas as tarefas cadastradas, exibindo na tela as informações de cada tarefa.
+
+O programa deve permitir a atualização dos dados de uma tarefa existente. O usuário deve informar o título da tarefa que deseja atualizar e, em seguida, digitar as novas informações (título, descrição e status).
+
+O programa deve permitir a exclusão de uma tarefa existente. O usuário deve informar o título da tarefa que deseja excluir.
+
+O programa deve ser executado em um loop contínuo, onde o usuário pode escolher as operações (criação, leitura, atualização, exclusão) até optar por sair do programa.
+
+Dicas:
+
+Você pode armazenar as tarefas em uma lista de dicionários, onde cada dicionário representa uma tarefa.
+Utilize estruturas de repetição (como o loop while) para criar o loop contínuo do programa.
+Para exibir as informações das tarefas na leitura, percorra a lista de tarefas e imprima as informações de cada tarefa.
